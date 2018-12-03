@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+/* Laptop and up */
+#hero {
+  background: url('hero.jpg');
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+#hero-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+/* Small Tablets & Down */
+@media(max-width: 767px) {
+  #hero {
+    background: url('hero.jpg');
+    height: 550px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+  }
+
+  #hero-overlay {
+    position: absolute;
+    height:550px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+  }
+}﻿
